@@ -16,7 +16,8 @@ public static void main(String[] args) {
 	driver.findElement(By.className("decorativeSubmit")).click();
 	String text=driver.findElement(By.tagName("h2")).getText();
 	System.out.println(text);
-	driver.findElement(By.tagName("a")).click();
+    driver.findElement(By.linkText("CRM/SFA")).click();
+    driver.findElement(By.linkText("Leads")).click();	
 	driver.findElement(By.linkText("Create Lead")).click();
 	driver.findElement(By.id("createLeadForm_companyName")).sendKeys("TestLeaf");
 	driver.findElement(By.id("createLeadForm_firstName")).sendKeys("Nandhi Shree");
