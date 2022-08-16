@@ -1,0 +1,72 @@
+
+       Answer All the Question
+
+1.Explain about the main method in java?
+Ans:Java main method is the entry point of any java program. 
+Its syntax is always public static void main(String[] args) .
+ You can only change the name of String array argument.
+
+2.What are the different  Control flow Statements available in java?
+Ans:if statement
+if-else statement
+if-else-if statement
+Nested if-statement
+Switch Statement
+
+3.What is the Difference betweeen break and continue statements?
+Ans:The break statement is used to terminate the loop immediately. 
+The continue statement is used to skip the current iteration of the loop. 
+
+4.What is an Array? How will you declare an array in java?
+Ans:An array in Java is a group of like-typed variables referred to by a common name.
+ by providing a type and name: int[] myArray;
+
+5.When will you get ArrayIndexOutOfBoundsException?
+Ans:ArrayIndexOutOfBoundsException occurs when we access an array, or a Collection, 
+that is backed by an array with an invalid index.
+
+6.Define the Syntax to create an object for a class.
+What are the naming conventions to be followed while creating a class, 
+method and a variable.Explain with examples
+Ans: ClassName object = new ClassName();
+Classes-
+public class Employee
+{
+//code snippet
+} 
+Methods-
+class Employee
+{
+// method
+void draw()
+{
+//code snippet
+}
+}
+Variables-
+class Employee
+{
+// variable
+int id;
+//code snippet
+}
+
+7.What is Variable?How will you declare a variables in java?
+Ans:Variable in Java is a data container that saves the data values during Java program execution
+type variableName = value;
+
+8.What is String in java? Is it a Data Type?
+Ans:Strings, which are widely used in Java programming, are a sequence of characters.
+In the Java programming language, strings are objects.
+String is not a primitive data type.
+
+9.What are the different ways to create the String Object in java?
+Ans:By string literal : Java String literal is created by using double quotes.
+For Example: String s=“Welcome”;  
+By new keyword : Java String is created by using a keyword “new”.
+For example: String s=new String(“Welcome”); 
+
+10.What is the Difference between .Equals and ==? 
+Ans:The difference between the == operator and .equals() method is that one is an operator,
+and the other is the method.Both these == operators and equals() are used to compare
+ objects to mark equality.
