@@ -1,0 +1,53 @@
+1.What is oops stands for?
+ANS: Object-oriented programming (OOP)
+
+2.What is Polymorphism? explain types?
+ANS: there are 2 type of Polymorphism
+method overloading/ Satic binding/ complie time Polymorphism: same method same class bu different arguments
+method override/ dynamic binding/ run time Polymorphism : different class with same methods
+
+3.what is interface and example in selenium,java?
+ANS: In Java, an interface is a blueprint or template of a class.
+It is much similar to the Java class but the only difference is that it has abstract methods and static constants.
+  Selenium:Chromedriver-Extends-Chromiumdriver
+
+4.what is abstarct class and example?
+ANS: *A class which is declared with the abstract keyword is known as an abstract class.
+*Abstract class is a restricted class that cannot be used to create objects (to access it, it must be inherited from another class).
+*Abstact class have implemented and unimplemented methods.
+example;
+*abstract class A{}  
+
+5.Difference between multiple inheritance and multilevel inheritance
+ANS: Multiple inheritance
+*It inherits characteristics and features from more than one parent object or parent class.(it is not supported in java).
+     Multilevel inheritance
+*There is a chain of inheritance(eg:baby dog class inherits dog class,dog class inherits animal class).
+
+6.Is multiple inheritance possible in java?
+ANS: No
+
+7.What is keyword for using inheritance  
+ANS: Extends
+
+8.what is the keyword to connect interface and class
+ANS: Implements
+
+9.what is difference between class and interface
+ANS: class
+    *A class describes the attributes and behaviors of an object.  
+    *A class may contain abstract methods, concrete methods.
+     interface
+    *An interface contains behaviors that a class implements.
+    *An interface contains only abstract methods 
+
+10.what is difference between class and abstract class
+ANS: class
+    *Class method can have body.
+    *Class can declared as final.
+    abstract calss
+    *Abstract methods cannot have body.
+    *Abstract class can have static fields and static method, like other classes.
+    *An abstract class cannot be declared as final.
+
+   
